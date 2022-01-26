@@ -14,4 +14,4 @@ datagen_520.R = a helper R function to generate the simulated data
 
 helper_overall.R, RMST_sub_overall.R = helper R functions to generates point estimates, standard errors and confidence intervals for the desired subgroup survival causal contrasts of interest. 
 
-PSWeight.SGA = a suite of R functions to perform propensity score weighting analysis for causal subgroup analyses. For more details, please refer to https://github.com/siyunyang/PSweight.SGA
+PSWeight.SGA = a suite of R functions to perform propensity score weighting analysis for causal subgroup analyses. For more details and illustrative examples, please refer to https://github.com/siyunyang/PSweight.SGA
