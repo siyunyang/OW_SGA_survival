@@ -10,6 +10,8 @@ simu_superpopulation.R = R program for calculating the true subgroup causal effe
 
 _true_val_censor_100_2021-09-13_.Rdata = R data that saves the true subgroup causal effect parameters returned from simu_superpopulation.R
 
-datagen_520.R, helper_overall.R, RMST_sub_overall.R = helper R functions to generate the simulated data and estimate subgroup survival causal effects.
+datagen_520.R = a helper R function to generate the simulated data
+
+helper_overall.R, RMST_sub_overall.R = helper R functions to generates point estimates, standard errors and confidence intervals for the desired subgroup survival causal contrasts of interest. 
 
 PSWeight.SGA = a suite of R functions to perform propensity score weighting analysis for causal subgroup analyses. For more details, please refer to https://github.com/siyunyang/PSweight.SGA
